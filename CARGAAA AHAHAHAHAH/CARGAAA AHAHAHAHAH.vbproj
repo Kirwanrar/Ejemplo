@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ACF4ADF4-D121-4CA2-88DE-086917F39C6C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>CARGAAA AHAHAHAHAH</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CARGAAA AHAHAHAHAH.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CARGAAA AHAHAHAHAH.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chofer.Designer.vb">
+      <DependentUpon>Chofer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chofer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contrato Final.designer.vb">
+      <DependentUpon>Contrato Final.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrato Final.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contrato.Designer.vb">
+      <DependentUpon>Contrato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creacion Contrato.Designer.vb">
+      <DependentUpon>Creacion Contrato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Creacion Contrato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excursiones.Designer.vb">
+      <DependentUpon>Excursiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excursiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Destino.Designer.vb">
+      <DependentUpon>Destino.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Destino.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CambioDeResponsable.Designer.vb">
+      <DependentUpon>CambioDeResponsable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CambioDeResponsable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EleccionPersonal.Designer.vb">
+      <DependentUpon>EleccionPersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EleccionPersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coordinadores.Designer.vb">
+      <DependentUpon>Coordinadores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Coordinadores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Elegirchooycoor.Designer.vb">
+      <DependentUpon>Elegirchooycoor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Elegirchooycoor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ficha.Designer.vb">
+      <DependentUpon>Ficha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ficha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorradoPaquete.Designer.vb">
+      <DependentUpon>BorradoPaquete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BorradoPaquete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recibos.Designer.vb">
+      <DependentUpon>Recibos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Recibos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LISTADO DE ALUMNO.Designer.vb">
+      <DependentUpon>LISTADO DE ALUMNO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LISTADO DE ALUMNO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizacionGanancias.Designer.vb">
+      <DependentUpon>VisualizacionGanancias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizacionGanancias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionPaquete.Designer.vb">
+      <DependentUpon>OpcionPaquete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionPaquete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizacionFichas.Designer.vb">
+      <DependentUpon>VisualizacionFichas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizacionFichas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionFicha.Designer.vb">
+      <DependentUpon>ModificacionFicha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionFicha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionViaje.Designer.vb">
+      <DependentUpon>ModificacionViaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionViaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionFicha.designer.vb">
+      <DependentUpon>OpcionFicha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionFicha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizacionViaje.Designer.vb">
+      <DependentUpon>VisualizacionViaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizacionViaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionCoordinador.Designer.vb">
+      <DependentUpon>ModificacionCoordinador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionCoordinador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionDestino.Designer.vb">
+      <DependentUpon>ModificacionDestino.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionDestino.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionHotel.Designer.vb">
+      <DependentUpon>ModificacionHotel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionHotel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionDestino.Designer.vb">
+      <DependentUpon>OpcionDestino.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionDestino.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionHotel.Designer.vb">
+      <DependentUpon>OpcionHotel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionHotel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizacionRecibo.Designer.vb">
+      <DependentUpon>VisualizacionRecibo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizacionRecibo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionPago.Designer.vb">
+      <DependentUpon>OpcionPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionContrato.Designer.vb">
+      <DependentUpon>ModificacionContrato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionContrato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionExcursion.Designer.vb">
+      <DependentUpon>ModificacionExcursion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionExcursion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionExcursiones.Designer.vb">
+      <DependentUpon>OpcionExcursiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionExcursiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionChofer.Designer.vb">
+      <DependentUpon>ModificacionChofer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionChofer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionChofer.Designer.vb">
+      <DependentUpon>OpcionChofer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionChofer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionCoordinador.Designer.vb">
+      <DependentUpon>OpcionCoordinador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionCoordinador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionTransporte.Designer.vb">
+      <DependentUpon>ModificacionTransporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionTransporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionTransporte.Designer.vb">
+      <DependentUpon>OpcionTransporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionTransporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionResponsables.Designer.vb">
+      <DependentUpon>ModificacionResponsables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionResponsables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionEscuela.Designer.vb">
+      <DependentUpon>ModificacionEscuela.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionEscuela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionCurso.Designer.vb">
+      <DependentUpon>ModificacionCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionCurso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionEscuela.Designer.vb">
+      <DependentUpon>OpcionEscuela.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionEscuela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionCurso.Designer.vb">
+      <DependentUpon>OpcionCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionCurso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionAlumno.Designer.vb">
+      <DependentUpon>OpcionAlumno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionAlumno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionResponsable.Designer.vb">
+      <DependentUpon>OpcionResponsable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionResponsable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificacionAlum.Designer.vb">
+      <DependentUpon>ModificacionAlum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionAlum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizacionCoordinador.Designer.vb">
+      <DependentUpon>VisualizacionCoordinador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizacionCoordinador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transporte.Designer.vb">
+      <DependentUpon>Transporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizacionTransporte.Designer.vb">
+      <DependentUpon>VisualizacionTransporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizacionTransporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VizualisacionChofer.Designer.vb">
+      <DependentUpon>VizualisacionChofer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VizualisacionChofer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hotel.Designer.vb">
+      <DependentUpon>Hotel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pago de cuotas.Designer.vb">
+      <DependentUpon>Pago de cuotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pago de cuotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizacionCuotas.Designer.vb">
+      <DependentUpon>VisualizacionCuotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizacionCuotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seleccion.Designer.vb">
+      <DependentUpon>Seleccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seleccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizacionPaquete.Designer.vb">
+      <DependentUpon>VisualizacionPaquete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizacionPaquete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cursos.Designer.vb">
+      <DependentUpon>Cursos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cursos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Escuela.Designer.vb">
+      <DependentUpon>Escuela.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Escuela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alumno.Designer.vb">
+      <DependentUpon>Alumno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Elegir opcion usuario.Designer.vb">
+      <DependentUpon>Elegir opcion usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Elegir opcion usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CambiarContra.Designer.vb">
+      <DependentUpon>CambiarContra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CambiarContra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro de usuario.Designer.vb">
+      <DependentUpon>Registro de usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro de usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paquete.Designer.vb">
+      <DependentUpon>Paquete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Paquete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventana de usuario.Designer.vb">
+      <DependentUpon>Ventana de usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ventana de usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaEleccion.Designer.vb">
+      <DependentUpon>PantallaEleccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaEleccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio.Designer.vb">
+      <DependentUpon>inicio.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Responsable.Designer.vb">
+      <DependentUpon>Responsable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Responsable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizacionEscuela.Designer.vb">
+      <DependentUpon>VisualizacionEscuela.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizacionEscuela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chofer.resx">
+      <DependentUpon>Chofer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrato Final.resx">
+      <DependentUpon>Contrato Final.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrato.resx">
+      <DependentUpon>Contrato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creacion Contrato.resx">
+      <DependentUpon>Creacion Contrato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cursos.resx">
+      <DependentUpon>Cursos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excursiones.resx">
+      <DependentUpon>Excursiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Destino.resx">
+      <DependentUpon>Destino.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CambioDeResponsable.resx">
+      <DependentUpon>CambioDeResponsable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EleccionPersonal.resx">
+      <DependentUpon>EleccionPersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Coordinadores.resx">
+      <DependentUpon>Coordinadores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Elegirchooycoor.resx">
+      <DependentUpon>Elegirchooycoor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ficha.resx">
+      <DependentUpon>Ficha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorradoPaquete.resx">
+      <DependentUpon>BorradoPaquete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recibos.resx">
+      <DependentUpon>Recibos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LISTADO DE ALUMNO.resx">
+      <DependentUpon>LISTADO DE ALUMNO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizacionGanancias.resx">
+      <DependentUpon>VisualizacionGanancias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionPaquete.resx">
+      <DependentUpon>OpcionPaquete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizacionFichas.resx">
+      <DependentUpon>VisualizacionFichas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionFicha.resx">
+      <DependentUpon>ModificacionFicha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionViaje.resx">
+      <DependentUpon>ModificacionViaje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionFicha.resx">
+      <DependentUpon>OpcionFicha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizacionViaje.resx">
+      <DependentUpon>VisualizacionViaje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionCoordinador.resx">
+      <DependentUpon>ModificacionCoordinador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionDestino.resx">
+      <DependentUpon>ModificacionDestino.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionHotel.resx">
+      <DependentUpon>ModificacionHotel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionDestino.resx">
+      <DependentUpon>OpcionDestino.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionHotel.resx">
+      <DependentUpon>OpcionHotel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizacionRecibo.resx">
+      <DependentUpon>VisualizacionRecibo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionPago.resx">
+      <DependentUpon>OpcionPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionContrato.resx">
+      <DependentUpon>ModificacionContrato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionExcursion.resx">
+      <DependentUpon>ModificacionExcursion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionExcursiones.resx">
+      <DependentUpon>OpcionExcursiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionChofer.resx">
+      <DependentUpon>ModificacionChofer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionChofer.resx">
+      <DependentUpon>OpcionChofer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionCoordinador.resx">
+      <DependentUpon>OpcionCoordinador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionTransporte.resx">
+      <DependentUpon>ModificacionTransporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionTransporte.resx">
+      <DependentUpon>OpcionTransporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionResponsables.resx">
+      <DependentUpon>ModificacionResponsables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionCurso.resx">
+      <DependentUpon>ModificacionCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionEscuela.resx">
+      <DependentUpon>ModificacionEscuela.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionEscuela.resx">
+      <DependentUpon>OpcionEscuela.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionCurso.resx">
+      <DependentUpon>OpcionCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionAlumno.resx">
+      <DependentUpon>OpcionAlumno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionResponsable.resx">
+      <DependentUpon>OpcionResponsable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionAlum.resx">
+      <DependentUpon>ModificacionAlum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizacionCoordinador.resx">
+      <DependentUpon>VisualizacionCoordinador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transporte.resx">
+      <DependentUpon>Transporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizacionTransporte.resx">
+      <DependentUpon>VisualizacionTransporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VizualisacionChofer.resx">
+      <DependentUpon>VizualisacionChofer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotel.resx">
+      <DependentUpon>Hotel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pago de cuotas.resx">
+      <DependentUpon>Pago de cuotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizacionCuotas.resx">
+      <DependentUpon>VisualizacionCuotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seleccion.resx">
+      <DependentUpon>Seleccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizacionPaquete.resx">
+      <DependentUpon>VisualizacionPaquete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Elegir opcion usuario.resx">
+      <DependentUpon>Elegir opcion usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Escuela.resx">
+      <DependentUpon>Escuela.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alumno.resx">
+      <DependentUpon>Alumno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CambiarContra.resx">
+      <DependentUpon>CambiarContra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro de usuario.resx">
+      <DependentUpon>Registro de usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paquete.resx">
+      <DependentUpon>Paquete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventana de usuario.resx">
+      <DependentUpon>Ventana de usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaEleccion.resx">
+      <DependentUpon>PantallaEleccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio.resx">
+      <DependentUpon>inicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Responsable.resx">
+      <DependentUpon>Responsable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizacionEscuela.resx">
+      <DependentUpon>VisualizacionEscuela.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2017-12-04 at 12.10.05 AM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Penguins.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
